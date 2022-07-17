@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/scripts/index.ts',
   mode: 'development',
   devServer: {
-    static: path.join(__dirname, 'dist'),
+    static: path.join(__dirname, 'src'),
     compress: true,
     port: 8080,
   },
